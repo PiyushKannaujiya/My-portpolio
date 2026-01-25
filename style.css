@@ -1,4 +1,27 @@
 body{
-    background-color: black;
-    color: white;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 30px;
+
+    margin-bottom: 0.1px;
+  
+}
+#upperLine{
+    height: 1px;
+    width: 100%;
+    background-color :gray;
+ margin-top:  50px;
+}
+.intro{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    background-color: rgba(230, 108, 21, 0.936);
+    height: 200px;
+    width: 100%;
 }
