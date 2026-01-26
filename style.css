@@ -17,11 +17,60 @@ body{
 .intro{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.intro h1,
+.intro h2,
+.intro p{
+    margin: 4px 0;
+}
+
+.introContactbtn{
+    color: black;
+    height: 55px;
+    width: 170px;
+    display: inline-flex;
+    text-align: center;
+   font-size: 28px;
+   font-weight: 600;
+    border-radius: 15px;
+    justify-content: center;
+align-items: center;
+    background-color:rgba(229, 108, 21, 0.936) ;
+      border: 2px solid transparent; 
+    transition: all 0.3s ease;
+    text-decoration: none;
+    
+}
+
+.introContactbtn:hover{
+    color: rgba(229, 108, 21, 0.936);
+    background-color: white;
+    cursor: pointer;
+    border:2px solid black;
+}
 .about{
     background-color: rgba(230, 108, 21, 0.936);
+    height: 200px;
+    width: 100%;
+}
+
+.workExperience{
+    background-color:white;
+    height: 200px;
+    width: 100%;
+}
+
+.education{
+    background-color: rgba(230, 108, 21, 0.936);
+    height: 200px;
+    width: 100%;
+}
+
+.contact{
+    background-color:white;
     height: 200px;
     width: 100%;
 }
