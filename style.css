@@ -1,7 +1,14 @@
-body{
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .head{
     height: 30px;
 
@@ -76,7 +83,7 @@ align-items: center;
     align-items: center;
     flex-direction: row-reverse;
     display: flex;
-    
+    padding: 20px;
    
 }
 .Pic{
@@ -124,3 +131,35 @@ align-items: center;
 
 .hline.hori1 { top: 33%; }
 .hline.hori2 { top: 66%; }
+
+
+
+.education{
+
+     background-color: rgba(230, 108, 21, 0.936);
+    height: 600px;
+    width: 100%; 
+}
+.education h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+.e1{
+   font-size:40px; 
+margin-top: 2px;
+   display: flex;
+   justify-content: center;
+}
+.contact{
+    height: 600px;
+    width: 100%;
+
+}
+.contact h1,
+.contact h3,
+.contact p{
+    display: flex;
+    justify-content: center;
+
+}
