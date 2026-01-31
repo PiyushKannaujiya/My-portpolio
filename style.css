@@ -163,3 +163,34 @@ margin-top: 2px;
     justify-content: center;
 
 }
+.sendBtn{
+    height: 50px;
+    width: 400px;
+    font-size: 40px;
+    border-radius: 25px;
+    background-color: grey;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    
+}
+.sendBtn:hover{
+    cursor: pointer;
+    background-color:  rgba(230, 108, 21, 0.936);
+    transition: 0.5ms;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
